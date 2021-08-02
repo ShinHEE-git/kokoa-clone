@@ -1,0 +1,56 @@
+@import "reset.css";
+@import "variables.css";
+
+/*components*/
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/header.css";
+@import "components/badge.css";
+@import "components/user-component.css";
+@import "components/icon-row.css";
+
+
+/*screen*/
+@import "screens/friends.css";
+.alert{
+    color: tomato;
+}
+.more-screen,
+.icon-row{
+    margin-top: 35px;
+}
+.more-suggestions{
+    margin-top: 50px;
+    border-top: var(--main-border);
+    padding-top: 40px;
+}
+.more-suggestions__title{
+    margin-bottom: 30px;
+}
+.more-suggestions__icons{
+    display: flex;
+}
+.more-suggestions__icon{
+    margin-right: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.more-suggestions_icon-image{
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.more-suggestions_icon-image i{
+    font-size: 30px;
+    color: white;
+}
+.more-suggestions__icon span{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.5);
+}

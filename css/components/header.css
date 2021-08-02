@@ -3,7 +3,10 @@
     justify-content: space-between;
     padding: var(--horizontal-space);
     padding-top: 30px;
-    margin-bottom: 15px;
+    margin: 15px 0px;
+}
+.screen-header a{
+    color: black;
 }
 .screen-header__title{
     font-size: 28px;
@@ -11,4 +14,16 @@
 }
 .screen-header__icons span{
     margin-left: 10px;
+}
+.screen-header__icons{
+    position: relative;
+}
+.header-dot{
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    left: 70px;
+    top: -7px;
 }
