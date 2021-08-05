@@ -38,3 +38,6 @@ body{
     font-size: 16px;
     color: rgba(0, 0, 0, 0.6);
 }
+.friends-screen{
+    padding: 0px var(--horizontal-space);
+}

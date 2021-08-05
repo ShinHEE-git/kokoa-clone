@@ -9,9 +9,6 @@
 @import "components/user-component.css";
 @import "components/icon-row.css";
 
-
-/*screen*/
-@import "screens/friends.css";
 .alert{
     color: tomato;
 }
@@ -53,4 +50,7 @@
 .more-suggestions__icon span{
     font-size: 13px;
     color: rgba(0, 0, 0, 0.5);
+}
+.friends-screen{
+    padding: 0px var(--horizontal-space);
 }

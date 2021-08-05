@@ -1,0 +1,27 @@
+@import "reset.css";
+@import "variables.css";
+
+/*components*/
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/badge.css";
+@import "components/alt-screen-header.css";
+
+.friends-screen{
+    margin: var(--horizontal-space);
+}
+.settings-setting{
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.settings-setting i{
+    margin-right: 20px;
+}
+.settings_setting-column__version{
+    opacity: 0.5;
+    font-size: 20px;
+}
